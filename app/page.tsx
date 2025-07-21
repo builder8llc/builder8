@@ -1,6 +1,6 @@
 'use client';
 
-import BuilderBot from '@/components/BuilderBot';
+import BuilderPrompt from '@/components/BuilderPrompt';
 import Navbar from '@/components/Navbar';
 
 export default function HomePage() {
@@ -14,11 +14,11 @@ export default function HomePage() {
         </h1>
 
         <p className="mt-6 text-lg sm:text-xl max-w-2xl text-gray-300">
-          Describe your idea. BuilderBot handles the rest — planning, generating code, and deploying your live app.
+          Describe your idea. BuilderPrompt handles the rest — planning, generating code, and deploying your live app.
         </p>
 
         <div className="mt-10 w-full max-w-2xl">
-          <BuilderBot />
+          <BuilderPrompt />
         </div>
       </section>
     </main>
