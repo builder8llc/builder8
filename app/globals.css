@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Your custom styles go here */
 body {
-  font-family: sans-serif;
-  background: #0f0c29;
-  color: white;
+  @apply bg-white text-black;
 }
