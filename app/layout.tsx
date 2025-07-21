@@ -1,22 +1,17 @@
 // app/layout.tsx
 
-import './globals.css'; // ⬅️ Make sure this exists
+import './globals.css';
+import { ReactNode } from 'react';
 
 export const metadata = {
   title: 'Builder8',
-  description: 'AI-powered SaaS builder',
+  description: 'AI-powered SaaS builder that launches full apps from a prompt',
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className="bg-black text-white">
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
