@@ -1,13 +1,14 @@
 // app/layout.tsx
-import './globals.css';
-import { ReactNode } from 'react';
-
 export const metadata = {
   title: 'Builder8',
-  description: 'AI-powered app builder',
+  description: 'AI-powered SaaS builder',
 };
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <body>{children}</body>
