@@ -26,3 +26,10 @@
     ]
   }
 }
+
+"dependencies": {
+  "next": "13.x",
+  "react": "18.x",
+  "react-dom": "18.x",
+  "jszip": "^3.10.1"
+}
